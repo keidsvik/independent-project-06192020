@@ -4,10 +4,7 @@ function Pizza (toppings, size) {
   this.size = size;
 }
 
-Pizza.prototype.pizzaPrice = function() {
-  if 
-}
-
+Pizza.prototype.pizzaPrice = function(){}
 
 
 
