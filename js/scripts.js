@@ -1,3 +1,18 @@
+//USER INTERFACE AKA "THE PARTY"
+
+$(document).ready(function() {
+  $("#pizzaform").submit(function(event) {
+    let toppings = $("#toppings").val();
+    let size = parseInt($("#size").val());
+    let completePizzaOrder = new Pizza(size, toppings);
+    let pizzaOrderPrice = completePizzaOrder.price();
+    console.log(pizzaOrderPrice);
+    event.preventDefault();
+  });
+});
+
+
+
 //BUSINESS LOGIC
 
 //object literal to store pizza sizes and prices for toppings
@@ -21,28 +36,14 @@ function Pizza(size, toppings) {
 Pizza.prototype.price = function() {
   let priceBase = 9
 
-  if (this.size() === small) {
+  if (size === 1) {
     priceBase = 9;
-  } else if (this.size() === medium) {
-    priceBase = 12;
+  } else if (size === 2) {
+    priceBase = priceBase + 3;
   } else {
-    priceBase = 15;
+    return priceBase = priceBase + 6;
   } 
-   return priceBase;
+   console.log(priceBase);
 }
-
-//USER INTERFACE AKA "THE PARTY"
-
-$(document).ready(function() {
-  $("#pizzaform").submit(function(event) {
-    let toppings = $("#toppings").val();
-    let size = $("#size").val();
-    let completePizzaOrder = new Pizza(size, toppings);
-    let pizzaOrderPrice = completePizzaOrder.price();
-    console.log(pizzaOrderPrice);
-    event.preventDefault();
-  });
-});
-
 
 
