@@ -24,7 +24,7 @@ A webpage for a pizza parlour where you can enter your desired pizza toppings an
 
 ## Specs
 
-_Numbers that contain a 1: all digits are replaced with "Immediate Response needed: Are you willing to occupy nearby residency to this unit?""_
+_It will ..._
 * Input: 1
 * Output: Immediate Response needed: Are you willing to occupy nearby residency to this unit?
 
