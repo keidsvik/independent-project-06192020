@@ -1,6 +1,6 @@
 //BUSINESS LOGIC
 
-//pizza constructor with size and array of toppings stored here
+//pizza constructor with size and empty array of toppings stored here
 function Pizza(size) {
   this.size = size;
   this.toppings = [];
@@ -10,14 +10,17 @@ Pizza.prototype.price = function() {
   let start = 9;
 
   if (this.size === 1) {
-    start = start + 0;
+    return start = start + 0;
   } else if (this.size === 2) {
-    start = start + 3;
+    return start = start + 3;
   } else {
     return start = start + 6;
   } 
 }
 
+Pizza.prototype.urToppings = function() {
+  
+}
 
 
 //USER INTERFACE AKA "THE PARTY"

@@ -4,6 +4,10 @@ p, select, button, input, h1 {
   font-family: 'Inconsolata', monospace;
 }
 
+#yourPizza {
+  font-family: 'Inconsolata', monospace;
+}
+
 img {
   max-height: 150px;
   max-width: 150px;
