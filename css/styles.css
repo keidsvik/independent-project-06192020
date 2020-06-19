@@ -1,8 +1,6 @@
-h1 {
-  font-family: 'Courgette', cursive;
-}
 
-p, select, button, input {
+
+p, select, button, input, h1 {
   font-family: 'Inconsolata', monospace;
 }
 
@@ -11,4 +9,6 @@ img {
   max-width: 150px;
 }
 
-.container
+.container {
+  width: 50%;
+}
