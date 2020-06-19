@@ -22,15 +22,8 @@ A webpage for a pizza parlour where you can enter your desired pizza toppings an
 3. Open index.html in preferred browser:
 `open index.html`
 
-## Specs
-
-_It will ..._
-* Input: 1
-* Output: Immediate Response needed: Are you willing to occupy nearby residency to this unit?
-
-
 ## Known Bugs
-* buggieeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeess
+* Does not receive toppings input.
 
 ## Technologies Used
 * HTML

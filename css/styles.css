@@ -1,16 +1,23 @@
 
 
-p, select, button, input, h1 {
+img {
+  max-height: 150px;
+  max-width: 150px;
+}
+
+p, button, input {
   font-family: 'Inconsolata', monospace;
+  color: rgb(207, 103, 120);
 }
 
 #yourPizza {
   font-family: 'Inconsolata', monospace;
+  color: rgb(207, 103, 120);
 }
 
-img {
-  max-height: 150px;
-  max-width: 150px;
+.form-control {
+  font-family: 'Inconsolata', monospace;
+  color: rgb(207, 103, 120);
 }
 
 .container {
