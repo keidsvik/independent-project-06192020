@@ -6,7 +6,6 @@ $(document).ready(function() {
     let size = parseInt($("#size").val());
     let completePizzaOrder = new Pizza(size, toppings);
     let pizzaOrderPrice = completePizzaOrder.price();
-    console.log(pizzaOrderPrice);
     event.preventDefault();
   });
 });
@@ -34,16 +33,16 @@ function Pizza(size, toppings) {
 //}
 
 Pizza.prototype.price = function() {
-  let priceBase = 9
+  let start = 9;
 
-  if (size === 1) {
-    priceBase = 9;
-  } else if (size === 2) {
-    priceBase = priceBase + 3;
+  if (this.size === 1) {
+    start = start + 0;
+  } else if (this.size === 2) {
+    start = start + 3;
   } else {
-    return priceBase = priceBase + 6;
+    start = start + 6;
   } 
-   console.log(priceBase);
+   console.log(start);
 }
 
 
